@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gmail-clone/static/css/main.c4ce725f.css",
-    "main.js": "/gmail-clone/static/js/main.bf63e15d.js",
-    "static/js/453.18dc64bd.chunk.js": "/gmail-clone/static/js/453.18dc64bd.chunk.js",
-    "index.html": "/gmail-clone/index.html",
-    "main.c4ce725f.css.map": "/gmail-clone/static/css/main.c4ce725f.css.map",
-    "main.bf63e15d.js.map": "/gmail-clone/static/js/main.bf63e15d.js.map",
-    "453.18dc64bd.chunk.js.map": "/gmail-clone/static/js/453.18dc64bd.chunk.js.map"
+    "main.css": "/static/css/main.c4ce725f.css",
+    "main.js": "/static/js/main.aabaf347.js",
+    "static/js/453.18dc64bd.chunk.js": "/static/js/453.18dc64bd.chunk.js",
+    "index.html": "/index.html",
+    "main.c4ce725f.css.map": "/static/css/main.c4ce725f.css.map",
+    "main.aabaf347.js.map": "/static/js/main.aabaf347.js.map",
+    "453.18dc64bd.chunk.js.map": "/static/js/453.18dc64bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4ce725f.css",
-    "static/js/main.bf63e15d.js"
+    "static/js/main.aabaf347.js"
   ]
 }
