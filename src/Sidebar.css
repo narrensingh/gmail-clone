@@ -1,0 +1,125 @@
+.sidebar__compose {
+  margin-top: 15px !important;
+  margin-left: 10px !important;
+  background-color: rgb(193, 231, 254) !important;
+  color: black !important;
+  padding: 16px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-radius: 20px !important;
+  text-transform: none !important;
+  margin-bottom: 20px !important;
+  width: 150px !important;
+}
+.sidebar {
+  display: flex;
+  padding-right: 16px;
+  flex-direction: column;
+  width: 250px;
+  height: 90dvh;
+  background-color: rgb(247, 248, 252);
+  overflow: scroll;
+}
+.sidebar__contents {
+  display: flex;
+  height: fit-content;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar__contentsLeft {
+  display: flex;
+}
+.sidebar__contentsTitle {
+  margin-left: 20px;
+}
+.sidebar__contentsTitle > p {
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.sidebar__contentsIcon > .MuiSvgIcon-root {
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+}
+.sidebar__contents:hover {
+  background-color: rgb(233, 230, 230);
+}
+.sidebar__footerHeader {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.sidebar__footerHeader > h3 {
+  font-weight: 400;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30em;
+  height: 10em;
+  margin-top: -5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.75);
+  padding: 25px 25px 10px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 9999;
+}
+.popup > input {
+  width: 100%;
+  margin-top: 5px;
+}
+.popup > h3 {
+  font-weight: 350;
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+.popup > p {
+  font-weight: 300;
+  color: rgb(95, 99, 103);
+  margin-bottom: 5px;
+}
+.s3 {
+  margin-top: 10px;
+  display: flex;
+}
+.cancel,
+.create {
+  text-transform: none !important;
+  padding: 6px 12px !important;
+  border-radius: 15px !important;
+}
+.create {
+  margin-left: 10px !important;
+  background-color: rgb(27, 114, 232) !important;
+  color: white !important;
+}
+.cancel {
+  color: rgb(68, 71, 70) !important;
+}
+.sidebar__contentsoptions > .MuiSvgIcon-root {
+  position: relative;
+  font-size: 20px !important;
+  color: rgb(68, 68, 68);
+  padding-right: 6px;
+}
+.sidebar__contentsoptionsmenu {
+  display: none;
+}

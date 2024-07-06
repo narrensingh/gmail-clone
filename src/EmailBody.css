@@ -1,0 +1,43 @@
+.email{
+    margin: 0px 20px 0px 0px;
+    background-color: white;
+    height:88dvh;
+    padding:10px;
+    width:100%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    flex:0.9;
+}
+.email__header1 > .icons{
+    margin-right: 35px !important;
+}
+.email__header1{
+    margin-top:10px;
+}
+.email__header2{
+    margin-left : 55px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.email__header2 > h1 {
+    font-weight: 350;
+}
+.email__header3 {
+    display: flex;
+}
+.email__profile{
+    margin-left:20px;
+}
+.email__profileemail{
+    color: grey;
+    font-size: 15px;
+}
+.email__profilename {
+    font-size : 20px;
+}
+.email__body{
+    margin-top: 30px;
+    margin-left : 55px;
+}

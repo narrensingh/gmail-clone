@@ -1,0 +1,41 @@
+.post {
+  border-top: 1px solid rgb(236, 239, 241);
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.post:hover {
+  border: 1px solid grey;
+}
+.post__icons > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.post__left {
+  display: flex;
+  flex: 0.3;
+}
+.post__iconsTitle {
+  font-weight: 600;
+}
+.post__center {
+  flex: 0.5;
+  margin-left: 20px;
+  min-width: 200px;
+}
+.post__right {
+  flex: 0.2;
+  font-size: 13px;
+  min-width: 200px;
+  text-align: end;
+  padding-right: 10px;
+}
+.post__centerspan {
+  color: grey;
+  font-size: 13px;
+}
+.post__icons {
+  display: flex;
+}

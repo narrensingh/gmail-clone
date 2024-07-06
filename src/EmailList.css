@@ -1,0 +1,45 @@
+.emaillist{
+    margin: 0px 20px 0px 0px;
+    background-color: white;
+    height:90dvh;
+    width:100%;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    flex:1;
+    position: relative;
+}
+.emaillist__icon{
+    display: flex;
+}
+.emaillist__iconright{
+    margin-left: 20px;
+}
+.MuiSvgIcon-root{
+    color: rgb(68,71,70) !important;
+    font-size: 20px !important;
+}
+.emaillist__categorybutton{
+    text-transform: none !important;
+    color:black !important;
+    font-size: medium !important;
+    margin-bottom: 10px !important;
+}
+.emaillist__categorybutton > .MuiSvgIcon-root{
+    font-size: larger !important;
+}
+.emaillist__category{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.emaillist__icon {
+    z-index:999;
+    position: sticky;
+    top:0;
+    background-color: white;
+}
+.icon {
+    margin-top: 0px !important;
+}

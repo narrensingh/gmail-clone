@@ -1,0 +1,65 @@
+.sendmail{
+    position: fixed;
+    bottom:0;
+    right:20px;
+    background-color: white;
+    height : 80%;
+    width:50%;
+    -webkit-box-shadow: 2px 6px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 16px 0px rgba(0,0,0,0.75);
+        padding:25px;
+    z-index:999;
+    border-radius: 20px !important;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sendmail__header{
+    background-color: rgb(242,246,251);
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.sendmail__header > h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(4,30,73);
+}
+.sendmail__body{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.sendmail__body > input{
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-bottom:1px solid rgb(236,239,241);
+}
+.sendmail__footer{
+    margin:0px 15px 20px 15px;
+}
+.sendmail__footerButton{
+    padding : 10px !important;
+    background-color: rgb(9,87,208) !important;
+    color:white !important;
+    text-transform: none !important;
+    border-radius: 30px !important;
+}
+.sendmail__footerButton:hover{
+    background-color: rgb(37, 110, 220) !important;
+}
+textarea{
+    resize: none;
+    height:50dvh;
+    overflow: scroll;
+    border:none;
+    outline: none;
+}
