@@ -20,7 +20,7 @@ const Post = ({ id, title, subject, time, message }) => {
         message,
       })
     );
-    navigate('/mail');
+    navigate('/gmail-clone/mail');
   };
   return (
     <div className="post" onClick={openMail}>

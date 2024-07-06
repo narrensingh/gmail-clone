@@ -19,7 +19,10 @@ const EmailBody = ({ email, subject, message, name }) => {
     <div className="email">
       <div className="email__header">
         <div className="email__header1">
-          <IconButton className="icons" onClick={() => navigate('/')}>
+          <IconButton
+            className="icons"
+            onClick={() => navigate('/gmail-clone')}
+          >
             <ArrowBackOutlinedIcon />
           </IconButton>
           <IconButton className="icons">

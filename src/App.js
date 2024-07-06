@@ -50,8 +50,8 @@ function App() {
           <div className="app__body">
             {showSidebar && <Sidebar />}
             <Routes>
-              <Route path="/" element={<EmailList />} />
-              <Route path="/mail" element={<EmailBody />} />
+              <Route path="/gmail-clone" element={<EmailList />} />
+              <Route path="/gmail-clone/mail" element={<EmailBody />} />
             </Routes>
             {sendMailOpen && <Sendmail />}
           </div>
